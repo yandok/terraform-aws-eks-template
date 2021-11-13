@@ -7,8 +7,9 @@ Generating Terraform Docs:
   * `./generate-terraform-docs.sh`
 
 ## Prerequisites
+  * AWS account (`aws_accountnumber`-variable)
   * existing public DNS zone in your AWS account (`dns_zone`-variable)
-
+  * S3 bucket for storing the Terraform state (`bucket` - value in s3 backend definition in `backend.tf`)
 ## Usage
   * initialize Terraform working directory:
     * `terraform init`
