@@ -1,0 +1,7 @@
+.idea
+.terraform
+modules/terraform-aws-dns-alias-record/.terraform
+modules/terraform-aws-eks/.terraform.lock.hcl
+modules/terraform-aws-load-balancer/.terraform
+kubeconfig_*
+.terraform.lock.hcl
